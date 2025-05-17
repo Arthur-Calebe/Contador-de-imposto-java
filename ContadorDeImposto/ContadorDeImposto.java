@@ -1,6 +1,12 @@
-public class ContadorDeImposto {
+import java.util.Scanner;
+
+public class contadorDeImposto {
     public static void main(String[] args) {
-        double salarioAnual = 54000;
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Digite o seu salário anual: ");
+        double salarioAnual = scanner.nextDouble();
+
         double primeiraFaixa = 7.50 / 100;
         double segundaFaixa = 15.00 / 100;
         double terceiraFaixa = 22.50 / 100;
@@ -16,8 +22,10 @@ public class ContadorDeImposto {
             valorImposto = salarioAnual * terceiraFaixa;
         }
 
-        System.out.println(valorImposto);
-        
+        System.out.println("Valor do imposto: R$ " + valorImposto);
+
+        scanner.close();
+
     }
 }
     

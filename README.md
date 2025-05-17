@@ -11,7 +11,7 @@
 ### ▶️ Como executar
 Abra o projeto em uma IDE Java (como NetBeans, IntelliJ ou VScode)
 
-* Compile o arquivo principal (CalculadoraImposto.java, por exemplo)
+* Compile o arquivo principal (contadorDeImposto.java, por exemplo)
 
 * Execute e insira o salário anual solicitado
 

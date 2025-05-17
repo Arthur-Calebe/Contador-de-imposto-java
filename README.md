@@ -7,3 +7,12 @@
 * Calcula o imposto com base em uma tabela progressiva de alíquotas
 
 * Exibe o valor total de imposto a pagar
+
+### ▶️ Como executar
+Abra o projeto em uma IDE Java (como NetBeans, IntelliJ ou VScode)
+
+* Compile o arquivo principal (CalculadoraImposto.java, por exemplo)
+
+* Execute e insira o salário anual solicitado
+
+* Veja o resultado do imposto calculado
